@@ -1,0 +1,1 @@
+cmd_/root/luckfox-pico/sysdrv/drv_ko/wifi/aic8800/Module.symvers := sed 's/\.ko$$/\.o/' /root/luckfox-pico/sysdrv/drv_ko/wifi/aic8800/modules.order | scripts/mod/modpost     -o /root/luckfox-pico/sysdrv/drv_ko/wifi/aic8800/Module.symvers -e -i Module.symvers   -T -

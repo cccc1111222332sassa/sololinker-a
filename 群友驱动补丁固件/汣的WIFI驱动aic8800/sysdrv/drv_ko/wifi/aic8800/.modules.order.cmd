@@ -1,0 +1,1 @@
+cmd_/root/luckfox-pico/sysdrv/drv_ko/wifi/aic8800/modules.order := {   cat /root/luckfox-pico/sysdrv/drv_ko/wifi/aic8800/aic_load_fw/modules.order;   cat /root/luckfox-pico/sysdrv/drv_ko/wifi/aic8800/aic8800_fdrv/modules.order; :; } | awk '!x[$$0]++' - > /root/luckfox-pico/sysdrv/drv_ko/wifi/aic8800/modules.order

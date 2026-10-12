@@ -1,0 +1,1 @@
+删除无用的组件，修改LVGL_DIR为PROJECT_DIR

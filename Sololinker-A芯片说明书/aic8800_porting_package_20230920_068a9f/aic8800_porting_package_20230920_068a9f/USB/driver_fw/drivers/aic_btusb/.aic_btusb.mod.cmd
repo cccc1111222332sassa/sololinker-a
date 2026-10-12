@@ -1,0 +1,1 @@
+cmd_/home/haixinyu/workspace/aic/release/android_driver/USB/driver_fw/drivers/aic_btusb/aic_btusb.mod := { echo  /home/haixinyu/workspace/aic/release/android_driver/USB/driver_fw/drivers/aic_btusb/aic_btusb.o; echo; } > /home/haixinyu/workspace/aic/release/android_driver/USB/driver_fw/drivers/aic_btusb/aic_btusb.mod

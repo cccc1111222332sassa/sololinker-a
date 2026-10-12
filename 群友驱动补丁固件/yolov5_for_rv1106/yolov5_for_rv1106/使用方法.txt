@@ -1,0 +1,16 @@
+该应用必须运行在ubuntu根系统
+环境配置:
+
+必须配置
+export LD_LIBRARY_PATH=文件夹内lib的绝对路径
+例如：export LD_LIBRARY_PATH=/home/rknn_yolov5_demo_Linux/lib/
+
+
+如果出现报错：没有libc.so.0   (libc.so.0 => not found)
+使用 ln -s /usr/lib/arm-linux-gnueabihf/libc.so.6 /usr/lib/arm-linux-gnueabihf/libc.so.0
+创建软连接修复 
+--------------------------------------------------------------------------------------------------------------------------
+使用方法./rknn_yolov5_demo 模型路径  图像路径
+例如：./rknn_yolov5_demo model/yolov5s-640-640.rknn img/fruits.jpg
+
+执行成功将输入result.jpg在同级目录
